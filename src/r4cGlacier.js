@@ -1,5 +1,5 @@
 const { R6StatAPI} = require("r6statapi");
-require('dotenv').config();
+require('dotenv').config({path: "../.env"});
 const api = new R6StatAPI();
 const email = process.env.EMAIL;
 const password = process.env.PASSWORD;
